@@ -1,5 +1,8 @@
 import { defineConfig } from "vite";
+import tailwindcss from '@tailwindcss/vite';
+import typography from "@tailwindcss/typography";
 export default defineConfig({
+  plugins: [tailwindcss(),typography],
   server: {
     host: "0.0.0.0", // cho phép truy cập từ máy khác
     port: 5173, // cổng của frontend (vite)
