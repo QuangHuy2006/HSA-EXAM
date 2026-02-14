@@ -29,7 +29,7 @@ export default function ExamResult() {
           "4afed13ffb5a2abdefccb0950aca011948f6e171c39504f83f8c4bb16bdbb019",
         Origin: "https://hsavnu.edu.vn",
         Referer: "https://hsavnu.edu.vn/exams",
-        "Access-control-allow-origin": "https://hsavnu.edu.vn"
+        "Access-Control-Allow-Origin": "https://hsavnu.edu.vn"
       },
     })
       .then((res) => {
